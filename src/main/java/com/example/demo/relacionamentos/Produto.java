@@ -1,11 +1,12 @@
-package com.example.demo;
+package com.example.demo.relacionamentos;
 
+import com.example.demo.BaseEntity;
 import jakarta.persistence.*;
 
 import java.util.List;
 
 @Entity
-public class Produto extends BaseEntity{
+public class Produto extends BaseEntity {
 
     @ManyToOne(fetch = FetchType.LAZY)
     private Categoria categoria;
