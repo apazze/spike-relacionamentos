@@ -1,4 +1,4 @@
-package com.example.demo.embeddable;
+package com.example.demo.controller.embeddable;
 
 import jakarta.persistence.Embeddable;
 

@@ -26,27 +26,27 @@ class CategoriaServiceTest {
     ProdutoRepository produtoRepository;
     
 
-//    @Test
-//    public void t() {
-//        Categoria categoria = new Categoria();
-//        categoria.setId(1L);
-//        categoria.setNome("Cat1");
-//
-//        Categoria salvo1 = categoriaRepository.save(categoria);
-//
-//        Produto produto = new Produto();
-//        produto.setId(1L);
-//        produto.setNome("nome");
-//        produto.setCategoria(salvo1);
-//
-//        produtoRepository.save(produto);
-//
-//
-//        List<Produto> all = produtoRepository.findAll();
-//
-//        System.out.println();
-//
-//    }
+    @Test
+    public void t() {
+        Categoria categoria = new Categoria();
+        categoria.setId(1L);
+        categoria.setNome("Cat1");
+
+        Categoria salvo1 = categoriaRepository.save(categoria);
+
+        Produto produto = new Produto();
+        produto.setId(1L);
+        produto.setNome("nome");
+        produto.setCategoria(salvo1);
+
+        produtoRepository.save(produto);
+
+
+        List<Produto> all = produtoRepository.findAll();
+
+        System.out.println();
+
+    }
 
     @Test
     void t1(){
