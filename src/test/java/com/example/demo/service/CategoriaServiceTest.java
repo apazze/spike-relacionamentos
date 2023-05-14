@@ -48,15 +48,15 @@ class CategoriaServiceTest {
 //
 //    }
 
-//    @Test
-//    void t1(){
-//        InterfaceComDefaultMethod i = new ClasseImpl();
-//
-//        i.metodo("Teste");
-//        String s = i.metodo2();
-//
-//        System.out.println();
-//    }
+    @Test
+    void t1(){
+        InterfaceComDefaultMethod i = new ClasseImpl();
+
+        i.metodo("Teste");
+        String s = i.metodo2();
+
+        System.out.println();
+    }
 
     @Test
     void t2(){
